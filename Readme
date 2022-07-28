@@ -1,0 +1,49 @@
+### To Connect with your MongoDb Database
+1. change MONGO_URI with your MongoDb cluter uri in .env file  
+
+### Install dependencies
+2. npm install
+
+### To run backend server
+3. npm run server 
+
+### To run backend server
+4. npm run client
+
+### To run whole project
+5. npm run dev
+
+### Frontend Project Details
+Backend server: http://127.0.0.1:3000
+Routes
+Home: http://127.0.0.1:3000/
+
+### Backend Project Details
+Backend server: http://127.0.0.1:5000
+Routes:
+[GET] /api/product
+[POST] /api/product
+req Body:
+{
+    "name": "books",
+    "quantity": 1,
+    "amount": 10,
+}
+
+[DELETE] /api/product/:id
+uses _id from GET product api
+
+[POST] /api/user/register
+req Body:  
+{
+    "first_name": "abcd",
+    "last_name": "abcd",
+    "email": "abcd@gmail.com",
+    "password": "abcd@abcd"
+}
+
+[POST] /api/user/register
+{
+    "email": "abcd@gmail.com",
+    "password": "abcd@abcd"
+}
