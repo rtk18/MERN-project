@@ -13,6 +13,9 @@
 ### To run whole project
 5. npm run dev
 
+### To render data through apis in frontend:
+Get you Token through Login Route And Paste it to /client/src/context/GlobalContext.js
+
 ### Frontend Project Details
 Backend server: http://127.0.0.1:3000
 Routes
