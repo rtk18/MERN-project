@@ -7,7 +7,7 @@
 ### To run backend server
 3. npm run server 
 
-### To run backend server
+### To run frontend server
 4. npm run client
 
 ### To run whole project
@@ -45,7 +45,7 @@ req Body:
     "password": "abcd@abcd"
 }
 
-[POST] /api/user/register
+[POST] /api/user/login
 {
     "email": "abcd@gmail.com",
     "password": "abcd@abcd"
